@@ -1,0 +1,23 @@
+cat << 'EOF' > .gitignore
+# Ambientes Virtuais
+venv/
+.venv/
+env/
+
+# Cache do Python e Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Pastas de Dados e Imagens (NÃO subir para o GitHub)
+data/
+dataset/
+imagens_brutas/
+
+# Arquivos do Sistema Operacional
+.DS_Store
+Thumbs.db
+
+# Configurações locais do VS Code
+.vscode/
+EOF
